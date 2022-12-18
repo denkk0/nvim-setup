@@ -119,5 +119,15 @@ return require('packer').startup(function(use)
 
     -- Pretty notifications
     use 'rcarriga/nvim-notify'
+
+    -- Tabline
+    use {
+        'akinsho/bufferline.nvim',
+        tag = "v3.*",
+        requires = 'nvim-tree/nvim-web-devicons'
+    }
+
+    -- Word highlighter
+    use 'RRethy/vim-illuminate'
 end)
 

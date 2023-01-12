@@ -6,3 +6,5 @@ vim.keymap.set("n", "N", "Nzzzv")
 
 vim.keymap.set("n", "Q", "<nop>")
 
+vim.keymap.set("n", "<leader>lg", ":lua require('decay.lazygit').lazygit_toggle()<cr>", { silent= true, noremap = true })
+

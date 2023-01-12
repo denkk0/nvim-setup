@@ -69,9 +69,11 @@ return require('packer').startup(function(use)
     -- Markdown preview
     use {
         'iamcco/markdown-preview.nvim',
-        run = 'cd app && npm install',
-        setup = function() vim.g.mkdp_filetypes = { 'markdown' } end,
-        ft = { 'markdown' },
+        opt = true,
+        ft = 'markdown',
+        run = function()
+    	    vim.fn['mkdp#util#install']()
+        end,
     }
 
     -- Nvim file tree sidebar

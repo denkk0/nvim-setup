@@ -120,6 +120,11 @@ _G.packer_plugins = {
     path = "/Users/denis/.local/share/nvim/site/pack/packer/start/dracula",
     url = "https://github.com/dracula/vim"
   },
+  ["filetype.nvim"] = {
+    loaded = true,
+    path = "/Users/denis/.local/share/nvim/site/pack/packer/start/filetype.nvim",
+    url = "https://github.com/nathom/filetype.nvim"
+  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/Users/denis/.local/share/nvim/site/pack/packer/start/friendly-snippets",

@@ -30,3 +30,5 @@ vim.opt.colorcolumn = "80"
 
 vim.opt.diffopt:append("vertical")
 vim.opt.diffopt:append("closeoff")
+
+vim.opt.clipboard:append("unnamedplus")

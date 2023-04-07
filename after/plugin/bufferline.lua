@@ -4,7 +4,7 @@ require("bufferline").setup{
         numbers = "ordinal",
         max_name_length = 18,
         max_prefix_length = 15,
-        tab_size = 18,
+        tab_size = 25,
         show_buffer_close_icons = true,
         show_close_icon = false,
         show_tab_indicators = true,
@@ -13,6 +13,15 @@ require("bufferline").setup{
         enforce_regular_tabs = false,
         always_show_bufferline = true,
         sort_by = "incremental_after_current",
+        offsets = {
+            {
+                filetype = "NvimTree",
+                text = "File Explorer",
+                highlight = "Directory",
+                text_align = "left",
+            },
+        },
+        separator_style = {"", ""},
     }
 }
 

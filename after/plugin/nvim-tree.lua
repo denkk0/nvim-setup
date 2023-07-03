@@ -5,6 +5,9 @@ vim.opt.termguicolors = true
 
 vim.api.nvim_set_keymap('n', '<C-b>', ':NvimTreeToggle<CR>', {noremap = true, silent = true})
 
+-- change folder arrow color
+vim.cmd('highlight NvimTreeIndentMarker guifg=#6272A4')
+
 require('nvim-tree').setup({
     disable_netrw = true,
     hijack_netrw = true,

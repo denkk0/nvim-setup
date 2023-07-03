@@ -131,5 +131,8 @@ return require('packer').startup(function(use)
 
     -- Word highlighter
     use 'RRethy/vim-illuminate'
+
+    -- Rust
+    use 'rust-lang/rust.vim'
 end)
 

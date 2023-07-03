@@ -1,7 +1,24 @@
 require("mason").setup()
 require("mason-lspconfig").setup({
     ensure_installed = {
+        "bashls",
+        "clangd",
+        "cssls",
+        "dockerls",
+        "docker_compose_language_service",
+        "eslint",
+        "grammarly",
+        "html",
+        "jsonls",
         "tsserver",
-        "tailwindcss"
+        "lua_ls",
+        "marksman",
+        "pyright",
+        "rust_analyzer",
+        "taplo",
+        "tailwindcss",
+        "tflint",
+        "lemminx",
+        "yamlls",
     },
 })
